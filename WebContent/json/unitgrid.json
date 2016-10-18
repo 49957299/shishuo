@@ -1,0 +1,23 @@
+{
+    "delay": 500,
+    "mode": "remote",
+    "url": "../../dic/kjZcCompany?field=DWMC",
+    "idField": "DWMC",
+    "textField": "DWMC",
+    "columns": [
+        [
+            {
+                "field": "DWMC",
+                "title": "单位名称",
+                "width": 120,
+                "sortable": true
+            },
+            {
+                "field": "DWBH",
+                "title": "单位编号",
+                "width": 400,
+                "sortable": true
+            }
+        ]
+    ]
+}

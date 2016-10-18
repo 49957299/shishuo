@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wondersgroup.api.web.dao.EngineMapper">
+
+	<insert id="save" parameterType="java.util.HashMap" >
+		<![CDATA[${sql}]]>
+	</insert>
+	
+	<update id="update" parameterType="java.util.HashMap" >
+		<![CDATA[${sql}]]>
+	</update>
+	
+	<delete id="delete" parameterType="java.util.HashMap" >
+		<![CDATA[${sql}]]>
+	</delete>
+	
+
+	<select id="find" parameterType="java.util.HashMap" resultType="java.util.HashMap">
+		<![CDATA[${sql}]]>
+	</select>
+
+	<select id="count" parameterType="java.util.HashMap" resultType="int">
+		<![CDATA[${sql}]]>
+	</select>
+
+
+	<select id="findOne" parameterType="java.util.HashMap" resultType="java.util.HashMap">
+		<![CDATA[${sql}]]>
+	</select>
+</mapper>

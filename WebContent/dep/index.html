@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap样例</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+	<div class="page-header">
+      <h1>Example page header <small>Subtext for header</small></h1>
+    </div>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#">首页</a></li>
+      <li role="presentation"><a href="#">新闻</a></li>
+      <li role="presentation"><a href="#">汽车</a></li>
+    </ul>
+    <div class="jumbotron">
+      <h1>你好，世界！</h1>
+      <p>...</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+ 
+	<div class="panel panel-primary">
+	  <div class="panel-heading">
+		<h3 class="panel-title">门诊</h3>
+	  </div>
+	  <div class="panel-body">
+		<canvas id="mzCanvas"></canvas>
+	  </div>
+	</div>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="jquery/1.11.3/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<script src="Chart.js-master/Chart.js"></script>
+	<script>
+		var data = {
+			labels : ["January","February","March","April","May","June","July"],
+			datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					data : [65,59,90,81,56,55,40]
+				},
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,1)",
+					pointColor : "rgba(151,187,205,1)",
+					pointStrokeColor : "#fff",
+					data : [28,48,40,19,96,27,100]
+				}
+			]
+		}
+		var ctx = document.getElementById("mzCanvas").getContext("2d");
+		window.mzLine = new Chart(ctx).Line(data);
+
+	</script>
+</body>
+</html>

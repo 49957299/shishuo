@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="../../css/default.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../../css/easyui/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="../../css/easyui/icon.css" />
+<link rel="stylesheet" type="text/css" href="../../css/engine/default.css" />
+<script type="text/javascript" src="../../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/jquery/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="../../js/jquery/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../../js/engine/wondersRestApi.js"></script>
+</head>
+<body tableClass="kjZcHuman">
+	<div id="search" style="margin-bottom:30px;width: 100% ">
+
+	</div>
+	<div id="dataGrid" class="easyui-datagrid"
+		style="width: 100%; height: 450px">
+		</div>
+	<div id="dialog" style="display: none;">
+	</div>
+	 <div id="importDialog" style="display: none;"  class="mn-upload-box">  
+		 <form  id="importdate" action="" method="post" enctype="multipart/form-data">
+		  	<input id="upload" class="easyui-filebox" name="upload"  style="width: 300px" onchange="txt.value=this.value"/> 
+		 </form>
+     </div> 
+</body>
+<script type="text/javascript" src="../../js/engine/wondersEngine.js"></script>
+<script type="text/javascript" src="../../js/engine/kjZcHuman.js"></script>
+<script type="text/javascript">
+$.ready()
+{
+	initDataGrid();
+}
+/* function fileSelected() {
+    var file = document.getElementById('fileToUpload').files[0];
+    var fileName = file.name;
+    var file_typename = fileName.substring(fileName.lastIndexOf('.'), fileName.length);
+
+    if (file_typename == '.xls') {//这里限定上传文件文件类型
+       if (file) {
+
+           $("#uploadFile").show();
+           var fileSize = 0;
+          if (file.size > 1024 * 1024)
+               fileSize = (Math.round(file.size * 100 / (1024 * 1024)) / 100).toString() + 'MB';
+          else
+              fileSize = (Math.round(file.size * 100 / 1024) / 100).toString() + 'KB';
+
+          document.getElementById('fileName').innerHTML = '文件名: ' + file.name;
+          document.getElementById('fileSize').innerHTML = '大小: ' + fileSize;
+           document.getElementById('fileType').innerHTML = '类型: ' + file.type;
+
+
+      }
+
+  }
+  else {
+
+      $("#uploadFile").hide();
+      document.getElementById('fileName').innerHTML = "<span style='color:Red'>错误提示:上传文件应该是.xls后缀而不应该是" + file_typename + ",请重新选择文件</span>"
+      document.getElementById('fileSize').innerHTML ="";
+       document.getElementById('fileType').innerHTML ="";
+
+   }
+} */
+</script>
+</html>

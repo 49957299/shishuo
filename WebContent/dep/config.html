@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>bootstrap样例</title> <!-- 新 Bootstrap 核心 CSS 文件 -->
+			<link rel="stylesheet"
+				href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+				<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+				<link rel="stylesheet"
+					href="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+</head>
+
+<body class="container-fluid">
+	<div class="page-header">
+		<h1>系统配置页面</h1>
+	</div>
+	<div class="row">
+		<div class="col-md-2 col-xs-2"
+			style="border: 1px #ccc solid; height: 500px;">
+			<button type="button" class="btn btn-primary btn-sm"
+				data-toggle="modal" data-target="#myModal">添加对象</button>
+			<div id="classList" class="panel panel-default">
+			</div>
+		</div>
+		<div class="col-md-10 col-xs-10">
+			<div class="panel panel-primary">
+				<a class="btn btn-primary btn-sm" href="#" role="button">添加列</a> <a
+					class="btn btn-primary btn-sm" href="#" role="button">删除列</a> <a
+					class="btn btn-primary btn-sm" href="#" role="button">列改名</a> <a
+					class="btn btn-primary btn-sm" href="#" role="button">添加对象</a> <a
+					class="btn btn-primary btn-sm" href="#" role="button">添加对象</a>
+				<div class="panel-heading">
+					<h3 class="panel-title">门诊</h3>
+				</div>
+				<div class="panel-body">
+					<canvas id="mzCanvas"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">添加Class对象</h4>
+				</div>
+				<div id="classBody" class="modal-body">
+					<div class="input-group input-group-lg">
+						<span class="input-group-addon" id="sizing-addon1">Class名称</span>
+						<input id="className" type="text" class="form-control"
+							placeholder="对象名称" aria-describedby="sizing-addon1">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					<button id="sub" type="button" class="btn btn-primary">保存</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="jquery/1.11.3/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<script src="Chart.js-master/Chart.js"></script>
+	<script>
+		
+		$().ready(
+				function() {
+					queryClass();
+					$("#sub").click(
+							function() {
+								$.ajax({
+									url : getContentPath() + "/protal/"
+											+ $("#className").val(),
+									type : "get",
+									success : function(msg) {
+										queryClass();
+										$('#myModal').modal('hide')
+									}
+								});
+							});
+				});
+
+		function queryClass() {
+			$.ajax({
+				url : getContentPath() + "/protal/queryClass",
+				type : "post",
+				success : function(msg) {
+					var data=eval("("+msg+")");
+					var html="";
+					for(var i=0;i<data.length;i++){
+						html=html+"<div class=\"panel-body\">" + data[i].CLASSES + "</div>"
+					}
+					alert(html);
+					$("#classList").html(html);
+				}
+			});
+
+		}
+
+		function getRootPath() {
+			// 获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp
+			var curWwwPath = window.document.location.href;
+			// 获取主机地址之后的目录，如： uimcardprj/share/meun.jsp
+			var pathName = window.document.location.pathname;
+			var pos = curWwwPath.indexOf(pathName);
+			// 获取主机地址，如： http://localhost:8083
+			var localhostPaht = curWwwPath.substring(0, pos);
+			// 获取带"/"的项目名，如：/uimcardprj
+			var projectName = pathName.substring(0, pathName.substr(1).indexOf(
+					'/') + 1);
+			return (localhostPaht + projectName);
+		}
+
+		function getContentPath() {
+			var pathName = window.document.location.pathname;
+			var projectName = pathName.substring(0, pathName.substr(1).indexOf(
+					'/') + 1);
+			return projectName;
+		}
+	</script>
+</body>
+</html>

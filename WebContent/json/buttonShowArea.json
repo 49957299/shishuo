@@ -1,0 +1,10 @@
+[{    
+    "id":"search",    
+    "text":"检索操作"   
+},{    
+    "id":"dataGrid",    
+    "text":"列表操作"   
+},{    
+    "id":"dialog",    
+    "text":"详细页面"   
+}] 

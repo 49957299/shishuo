@@ -1,0 +1,281 @@
+{
+	"basic": [{
+		"icon": "icon-nav",
+		"menuid": "2c90da5e53ca94b40153cafe66ac000c",
+		"menuname": "系统配置",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53ca94b40153cafff8cd000d",
+			"menuname": "表配置",
+			"url": "html/sys/table.html"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53ca94b40153cb013427000e",
+			"menuname": "字段配置",
+			"url": "html/sys/col.html"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53ca94b40153cb01ee12000f",
+			"menuname": "事件配置",
+			"url": "html/sys/button.html"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53ca94b40153cb0262280010",
+			"menuname": "字典配置",
+			"url": "html/sys/dic.html"
+		}],
+		"url": ""
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f063400",
+		"menuname": "用户管理",
+		"menus": [
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154040036220001",
+				"menuname": "用户管理",
+				"url": "teacher/user/default"
+			},
+			{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30017",
+			"menuname": "订单信息",
+			"url": "teacher/Ddxx/default"
+			},{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30015",
+				"menuname": "钱包",
+				"url": "teacher/Qb/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30016",
+				"menuname": "交易记录",
+				"url": "teacher/Jyjl/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30018",
+				"menuname": "收藏记录",
+				"url": "teacher/Scjl/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30019",
+				"menuname": "浏览记录",
+				"url": "teacher/Lljl/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30025",
+				"menuname": "用户卡信息",
+				"url": "teacher/Yhyhkxx/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30026",
+				"menuname": "总账户",
+				"url": "teacher/Zzm/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30026",
+				"menuname": "订单授课时间",
+				"url": "teacher/Ddsksjrl/default"
+			}
+		],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630900",
+		"menuname": "老师管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30004",
+			"menuname": "老师基本信息",
+			"url": "teacher/Lsjbxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb8052015409c5bffa0013",
+			"menuname": "课程信息",
+			"url": "teacher/Kcxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30905",
+			"menuname": "授课学龄",
+			"url": "teacher/Skxl/default"
+		
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30005",
+			"menuname": "授课区域",
+			"url": "teacher/Skqy/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30006",
+			"menuname": "授课时间设置",
+			"url": "teacher/Sksjsz/default"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30007",
+			"menuname": "授课时间日历",
+			"url": "teacher/Sksjrl/default"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30009",
+			"menuname": "评价",
+			"url": "teacher/Pj/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630002",
+		"menuname": "家长管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd0114",
+			"menuname": "家长管理",
+			"url": "teacher/Jzjbxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30011",
+			"menuname": "子女信息",
+			"url": "teacher/Znxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30012",
+			"menuname": "子女需求",
+			"url": "teacher/Znxq/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30013",
+			"menuname": "子女授课时间设置",
+			"url": "teacher/Znsksjsz/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30014",
+			"menuname": "子女授课时间日历",
+			"url": "teacher/Znsksjrl/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630200",
+		"menuname": "上架管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30008",
+			"menuname": "上架管理",
+			"url": "teacher/Lssjxx/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f063400",
+		"menuname": "积分管理",
+		"menus": [
+			{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30017",
+			"menuname": "积分管理",
+			"url": "teacher/Jf/default"
+			},{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30021",
+				"menuname": "积分记录",
+				"url": "teacher/Jfjl/default"
+			}
+		],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f063400",
+		"menuname": "优惠券管理",
+		"menus": [
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30022",
+				"menuname": "用户优惠券",
+				"url": "teacher/Yhyhq/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30023",
+				"menuname": "优惠券管理",
+				"url": "teacher/Yhq/default"
+			}
+		],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630500",
+		"menuname": "活动管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30024",
+			"menuname": "活动发布",
+			"url": "teacher/Hdfb/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630900",
+		"menuname": "图文管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd9114",
+			"menuname": "咨询发布",
+			"url": "teacher/Zxgl/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630700",
+		"menuname": "工资结算",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd7114",
+			"menuname": "家长管理",
+			"url": "/web/html/userManager/swaqInfo.html"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630800",
+		"menuname": "点评管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd8114",
+			"menuname": "家长管理",
+			"url": "/web/html/userManager/swaqInfo.html"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0631002",
+		"menuname": "推送管理",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd1114",
+			"menuname": "家长管理",
+			"url": "/web/html/userManager/swaqInfo.html"
+		}],
+		"url": "/webnull"
+	}]
+}

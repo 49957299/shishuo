@@ -1,0 +1,23 @@
+{
+    "delay": 500,
+    "mode": "remote",
+    "url": "../../dic/sysEngineGridDic?field=DIC_GRID_NAME",
+    "idField": "DIC_GRID_CODE",
+    "textField": "DIC_GRID_NAME",
+    "columns": [
+        [
+            {
+                "field": "DIC_GRID_CODE",
+                "title": "字典代码",
+                "width": 120,
+                "sortable": true
+            },
+            {
+                "field": "DIC_GRID_NAME",
+                "title": "字典名称",
+                "width": 400,
+                "sortable": true
+            }
+        ]
+    ]
+}

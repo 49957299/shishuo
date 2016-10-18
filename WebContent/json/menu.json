@@ -1,0 +1,215 @@
+{
+	"basic": [{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f063400",
+		"menuname": "&#x7528;&#x6237;&#x7BA1;&#x7406;",
+		"menus": [
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154040036220001",
+				"menuname": "&#x7528;&#x6237;&#x7BA1;&#x7406;",
+				"url": "teacher/user/default"
+			},
+			{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30017",
+			"menuname": "&#x8BA2;&#x5355;&#x4FE1;&#x606F;",
+			"url": "teacher/Ddxx/default"
+			},{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30015",
+				"menuname": "&#x94B1;&#x5305;",
+				"url": "teacher/Qb/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30016",
+				"menuname": "&#x4EA4;&#x6613;&#x8BB0;&#x5F55;",
+				"url": "teacher/Jyjl/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30018",
+				"menuname": "&#x6536;&#x85CF;&#x8BB0;&#x5F55;",
+				"url": "teacher/Scjl/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30019",
+				"menuname": "&#x6D4F;&#x89C8;&#x8BB0;&#x5F55;",
+				"url": "teacher/Lljl/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30025",
+				"menuname": "&#x7528;&#x6237;&#x5361;&#x4FE1;&#x606F;",
+				"url": "teacher/Yhyhkxx/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30026",
+				"menuname": "&#x603B;&#x8D26;&#x6237;",
+				"url": "teacher/Zzm/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30026",
+				"menuname": "&#x8BA2;&#x5355;&#x6388;&#x8BFE;&#x65F6;&#x95F4;",
+				"url": "teacher/Ddsksjrl/default"
+			}
+		],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630900",
+		"menuname": "&#x8001;&#x5E08;&#x7BA1;&#x7406;",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30004",
+			"menuname": "&#x8001;&#x5E08;&#x57FA;&#x672C;&#x4FE1;&#x606F;",
+			"url": "teacher/Lsjbxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb8052015409c5bffa0013",
+			"menuname": "&#x8BFE;&#x7A0B;&#x4FE1;&#x606F;",
+			"url": "teacher/Kcxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30905",
+			"menuname": "&#x6388;&#x8BFE;&#x5B66;&#x9F84;",
+			"url": "teacher/Skxl/default"
+		
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30005",
+			"menuname": "&#x6388;&#x8BFE;&#x533A;&#x57DF;",
+			"url": "teacher/Skqy/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30006",
+			"menuname": "&#x6388;&#x8BFE;&#x65F6;&#x95F4;&#x8BBE;&#x7F6E;",
+			"url": "teacher/Sksjsz/default"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30007",
+			"menuname": "&#x6388;&#x8BFE;&#x65F6;&#x95F4;&#x65E5;&#x5386;",
+			"url": "teacher/Sksjrl/default"
+		},
+		{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30009",
+			"menuname": "&#x8BC4;&#x4EF7;",
+			"url": "teacher/Pj/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630002",
+		"menuname": "&#x5BB6;&#x957F;&#x7BA1;&#x7406;",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd0114",
+			"menuname": "&#x5BB6;&#x957F;&#x7BA1;&#x7406;",
+			"url": "teacher/Jzjbxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30011",
+			"menuname": "&#x5B50;&#x5973;&#x4FE1;&#x606F;",
+			"url": "teacher/Znxx/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30012",
+			"menuname": "&#x5B50;&#x5973;&#x9700;&#x6C42;",
+			"url": "teacher/Znxq/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30013",
+			"menuname": "&#x5B50;&#x5973;&#x6388;&#x8BFE;&#x65F6;&#x95F4;&#x8BBE;&#x7F6E;",
+			"url": "teacher/Znsksjsz/default"
+		},{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30014",
+			"menuname": "&#x5B50;&#x5973;&#x6388;&#x8BFE;&#x65F6;&#x95F4;&#x65E5;&#x5386;",
+			"url": "teacher/Znsksjrl/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630200",
+		"menuname": "&#x4E0A;&#x67B6;&#x7BA1;&#x7406;",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30008",
+			"menuname": "&#x4E0A;&#x67B6;&#x7BA1;&#x7406;",
+			"url": "teacher/Lssjxx/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f063400",
+		"menuname": "&#x79EF;&#x5206;&#x7BA1;&#x7406;",
+		"menus": [
+			{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30017",
+			"menuname": "&#x79EF;&#x5206;&#x7BA1;&#x7406;",
+			"url": "teacher/Jf/default"
+			},{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30021",
+				"menuname": "&#x79EF;&#x5206;&#x8BB0;&#x5F55;",
+				"url": "teacher/Jfjl/default"
+			}
+		],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f063400",
+		"menuname": "&#x4F18;&#x60E0;&#x5238;&#x7BA1;&#x7406;",
+		"menus": [
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30022",
+				"menuname": "&#x7528;&#x6237;&#x4F18;&#x60E0;&#x5238;",
+				"url": "teacher/Yhyhq/default"
+			},
+			{
+				"icon": "icon-nav",
+				"menuid": "2c90da5e53cb80520154036252f30023",
+				"menuname": "&#x4F18;&#x60E0;&#x5238;&#x7BA1;&#x7406;",
+				"url": "teacher/Yhq/default"
+			}
+		],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630500",
+		"menuname": "&#x6D3B;&#x52A8;&#x7BA1;&#x7406;",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da5e53cb80520154036252f30024",
+			"menuname": "&#x6D3B;&#x52A8;&#x53D1;&#x5E03;",
+			"url": "teacher/Hdfb/default"
+		}],
+		"url": "/webnull"
+	},
+	{
+		"icon": "icon-nav",
+		"menuid": "2c90da7d545ad69001545b68f0630900",
+		"menuname": "&#x56FE;&#x6587;&#x7BA1;&#x7406;",
+		"menus": [{
+			"icon": "icon-nav",
+			"menuid": "2c90da7d545ad69001545b6c5ebd9114",
+			"menuname": "&#x54A8;&#x8BE2;&#x53D1;&#x5E03;",
+			"url": "teacher/Zxgl/default"
+		}],
+		"url": "/webnull"
+	}]
+}

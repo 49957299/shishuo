@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wondersgroup.api.web.dao.GeneralSqlMapper">
+
+	<select id="findOne" parameterType="java.util.HashMap"
+		resultType="java.lang.String">
+		select * from sys_sql_config where key=#{sqlKey}
+	</select>
+
+
+	<select id="find" resultType="java.util.HashMap">
+		select * from sys_sql_config
+	</select>
+
+</mapper>

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../../css/default.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css"
+	href="../../css/easyui/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="../../css/easyui/icon.css" />
+<script type="text/javascript" src="../../js/jquery/jquery.min.js"></script>
+<script type="text/javascript"
+	src="../../js/jquery/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../../js/engine/wondersRestApi.js"></script>
+
+</head>
+<body tableClass="sysOrg">
+	<div id="search" style="margin-bottom:30px;width: 100% ">
+			
+		<div id="dlg-buttons" align="right">
+			<a href="javascript:void(0)" class="easyui-linkbutton"
+				onclick="find()" iconcls="icon-save">查询</a> <a
+				href="javascript:void(0)" class="easyui-linkbutton"
+				onclick="find()"
+				iconcls="icon-cancel">自定义查询</a>
+		</div>
+	</div>
+	<div id="dataGrid" class="easyui-datagrid"
+		style="width: 100%; height: 450px">
+		</div>
+	<div id="dialog" style="display: none;">
+		<div id="dlg-buttons">
+			<a href="javascript:void(0)" class="easyui-linkbutton"
+				onclick="save()" iconcls="icon-save">保存</a> <a
+				href="javascript:void(0)" class="easyui-linkbutton"
+				onclick="javascript:$('#dialog').dialog('close')"
+				iconcls="icon-cancel">取消</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../../js/engine/wondersEngine.js"></script>
+<script type="text/javascript">
+$.ready()
+{
+	initDataGrid();
+}
+</script>
+</html>

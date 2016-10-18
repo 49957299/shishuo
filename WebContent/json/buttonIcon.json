@@ -1,0 +1,19 @@
+[{    
+    "id":"icon-add",    
+    "text":"新增"   
+},{    
+    "id":"icon-edit",    
+    "text":"编辑"   
+},{    
+    "id":"icon-cancel",    
+    "text":"删除"   
+},{    
+    "id":"icon-search",    
+    "text":"查询查看"   
+},{    
+    "id":"icon-save",    
+    "text":"保存"   
+},{    
+    "id":"icon-cancel",    
+    "text":"取消"   
+}] 

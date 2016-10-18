@@ -1,0 +1,23 @@
+{
+    "delay": 500,
+    "mode": "remote",
+    "url": "../../dic/sysEngineTable?field=NOTE_NAME",
+    "idField": "OBJECT_NAME",
+    "textField": "NOTE_NAME",
+    "columns": [
+        [
+            {
+                "field": "OBJECT_NAME",
+                "title": "表对象名称",
+                "width": 120,
+                "sortable": true
+            },
+            {
+                "field": "NOTE_NAME",
+                "title": "表中文名称",
+                "width": 400,
+                "sortable": true
+            }
+        ]
+    ]
+}

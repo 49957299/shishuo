@@ -1,0 +1,16 @@
+[{    
+    "id":"STRING",    
+    "text":"STRING"   
+},{    
+    "id":"NUMBER",    
+    "text":"NUMBER"   
+},{    
+    "id":"DATE",    
+    "text":"DATE"
+},{    
+    "id":"DATETIME",    
+    "text":"DATETIME"   
+},{    
+    "id":"FILE",    
+    "text":"FILE"   
+}] 
